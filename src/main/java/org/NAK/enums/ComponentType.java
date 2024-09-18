@@ -1,6 +1,6 @@
 package org.NAK.enums;
 
-public enum COMPONENTTYPE {
+public enum ComponentType {
 
     MATERIAL,
     WORKFORCE

@@ -1,6 +1,7 @@
 package org.NAK.enums;
 
-public enum PROJECTSTATE {
+public enum ProjectState {
+
     PENDING,
     COMPLETED,
     CANCELLED
