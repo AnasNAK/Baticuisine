@@ -5,45 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41d72455-3571-4ff8-8ea3-5f5dec201d00" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discordrp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/db/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/db/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/ClientInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/ComponentInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/EstimateInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/MaterialInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/ProjectInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/WorkForceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/ComponentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/EstimateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/MaterialRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/WorkForceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/ClientInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/ComponentInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/EstimateInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/MaterialInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/ProjectInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/WorkForceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/ComponentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/EstimateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/MaterialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/WorkForceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/entities/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/entities/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/entities/Estimate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/entities/Estimate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/entities/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/entities/Material.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/entities/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/entities/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/entities/WorkForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/entities/WorkForce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2mKd6a5KNjZtN2aV6o6tiV72zp6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "BAT-39-Database-Management",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;BAT-39-Database-Management&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
