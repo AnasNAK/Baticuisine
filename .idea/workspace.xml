@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b6dce6-dae6-4fcc-ae6e-aa0663133c08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/NewProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/views/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/ProjectInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/ProjectInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/ClientInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/ClientInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/ClientService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "BAT-2-Client-Management",
+    "git-widget-placeholder": "BAT-32-Project-Management",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
