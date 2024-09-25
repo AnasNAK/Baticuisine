@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b6dce6-dae6-4fcc-ae6e-aa0663133c08" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/MaterialInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/MaterialInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/WorkForceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/WorkForceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/MaterialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/MaterialRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/WorkForceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/WorkForceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/MaterialInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/MaterialInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/ProjectInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/ProjectInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/WorkForceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/WorkForceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/MaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/MaterialService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/WorkForceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/WorkForceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/MaterialUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/MaterialUi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/ProjectUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/ProjectUi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/WorkForceUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/WorkForceUi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/views/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/views/MainMenu.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1b6dce6-dae6-4fcc-ae6e-aa0663133c08" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
