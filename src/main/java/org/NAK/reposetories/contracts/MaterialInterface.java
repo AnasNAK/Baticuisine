@@ -11,7 +11,7 @@ public interface MaterialInterface {
 
     void addMaterial(Material material) throws SQLException;
     Optional<Material> findMaterialById(UUID materialId) throws SQLException;
-    List<Material> getAllMaterials() throws SQLException;
-    Optional<Material> updateMaterial(UUID materialId, Material updatedMaterial) throws SQLException;
-    Optional<Material> deleteMaterial(UUID materialId) throws SQLException;
+//    List<Material> getAllMaterials() throws SQLException;
+//    Optional<Material> updateMaterial(UUID materialId, Material updatedMaterial) throws SQLException;
+//    Optional<Material> deleteMaterial(UUID materialId) throws SQLException;
 }

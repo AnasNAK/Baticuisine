@@ -1,15 +1,14 @@
 package org.NAK.views;
 
-import org.NAK.subMenu.NewProject;
+import org.NAK.subMenu.ProjectUi;
 
-import java.sql.SQLException;
 import java.util.Scanner;
 
 public class MainMenu {
 
     public void displayMenu(){
         Scanner scanner = new Scanner(System.in);
-        NewProject newProject = new NewProject(scanner);
+        ProjectUi projectUi = new ProjectUi(scanner);
 
 
 
@@ -26,13 +25,14 @@ public class MainMenu {
 
             switch (choice) {
                 case 1:
-                  newProject.createNewProject();
+                  projectUi.createNewProject();
                     break;
                 case 2:
-                    System.out.println("Afficher les projets existants...");
+//                    displayExistingProjects();
+
                     break;
                 case 3:
-                    System.out.println("Calculer le coût d'un projet...");
+//                    calculateProjectCost(scanner);
                     break;
                 case 4:
                     System.out.println("Quitter...");

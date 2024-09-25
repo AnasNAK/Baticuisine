@@ -25,7 +25,7 @@ public class ProjectRepository implements ProjectInterface{
 
     @Override
     public void addProject(Project project) throws SQLException {
-        String sql = "INSERT INTO project (name, profitmargin, totalcost, projectstate, clientid) VALUES (?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO project (name, profitmargin, totalcost, projectstate, clientid) VALUES (?, ?, ?, ?::projectstate, ?)";
 
         try (PreparedStatement stmt = connection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS)) {
             stmt.setString(1, project.getProjectName());

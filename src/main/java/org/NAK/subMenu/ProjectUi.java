@@ -1,20 +1,27 @@
 package org.NAK.subMenu;
 
 import org.NAK.entities.Client;
+import org.NAK.entities.Project;
+import org.NAK.enums.ProjectState;
 import org.NAK.services.implementations.ClientService;
+import org.NAK.services.implementations.ProjectService;
 
 import java.sql.SQLException;
+import java.util.InputMismatchException;
 import java.util.Optional;
 import java.util.Scanner;
 import java.util.UUID;
 
-public class NewProject {
+public class ProjectUi {
     private Scanner scanner;
     private ClientService clientService;
+    private ProjectService projectService;
 
-    public NewProject(Scanner scanner) {
+
+    public ProjectUi(Scanner scanner) {
         this.scanner = scanner;
         this.clientService = new ClientService();
+        this.projectService = new ProjectService();
     }
 
     public void createNewProject() {
@@ -65,10 +72,10 @@ public class NewProject {
             System.out.println("Nom : " + client.getName());
             System.out.println("Adresse : " + client.getAdress());
             System.out.println("Numéro de téléphone : " + client.getTelephone());
-            if (client.getProfessional()){
-                System.out.println("ce client est proffessionelle ");
-            }else {
-                System.out.println("ce client n'est pas proffessionelle ");
+            if (client.getProfessional()) {
+                System.out.println("Ce client est professionnel.");
+            } else {
+                System.out.println("Ce client n'est pas professionnel.");
             }
 
             System.out.print("Souhaitez-vous continuer avec ce client ? (y/n) : ");
@@ -85,8 +92,48 @@ public class NewProject {
     }
 
     private void createProjectWithClient(UUID clientId) {
-        System.out.println("Création du projet avec le client ID : " + clientId);
+        try {
+            System.out.print("Entrez le nom du projet : ");
+            String projectName = scanner.next();
+
+            System.out.print("Entrez la marge bénéficiaire du projet : ");
+            double profitMargin = scanner.nextDouble();
+
+
+            System.out.print("Entrez l'état du projet (PENDING, COMPLETED, CANCELLED) : ");
+            String projectStateInput = scanner.next();
+
+            ProjectState projectState;
+            try {
+                projectState = ProjectState.valueOf(projectStateInput.toUpperCase());
+            } catch (IllegalArgumentException e) {
+                System.out.println("État de projet invalide. Veuillez entrer PENDING, COMPLETED ou CANCELLED.");
+                return;
+            }
+
+            Project project = new Project();
+            project.setProjectName(projectName);
+            project.setProfitMargin(profitMargin);
+            project.setProjectState(projectState);
+
+            Optional<Client> clientOptional = clientService.findClientById(clientId);
+            if (clientOptional.isPresent()) {
+                project.setClient(clientOptional.get());
+                projectService.addProject(project);
+                System.out.println("Projet créé avec succès !");
+            } else {
+                System.out.println("Client non trouvé pour l'ID fourni.");
+            }
+        } catch (SQLException e) {
+            System.out.println("Erreur lors de la création du projet : " + e.getMessage());
+        } catch (InputMismatchException e) {
+            System.out.println("Erreur de saisie. Veuillez vérifier les types de données.");
+            scanner.nextLine(); // Clear the invalid input
+        } catch (Exception e) {
+            System.out.println("Erreur lors de la création du projet : " + e.getMessage());
+        }
     }
+
 
     private void addNewClient() throws SQLException {
         System.out.print("Entrez le nom du client : ");
