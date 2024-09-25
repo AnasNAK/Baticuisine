@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b6dce6-dae6-4fcc-ae6e-aa0663133c08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/EstimateUi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/MaterialUi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/WorkForceUi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/MaterialInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/contracts/MaterialInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/ProjectInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/ProjectInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/NewProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/subMenu/ProjectUi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/views/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/views/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/MaterialRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/reposetories/implementations/MaterialRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/MaterialInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/contracts/MaterialInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/MaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/NAK/services/implementations/MaterialService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +43,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "BAT-32-Project-Management",
+    "git-widget-placeholder": "BAT-3-Component-Management",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
