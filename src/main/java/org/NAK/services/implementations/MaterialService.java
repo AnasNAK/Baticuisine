@@ -11,10 +11,10 @@ import java.util.UUID;
 
 public class MaterialService implements MaterialInterface {
 
-    private final MaterialRepository materialRepository;
+    private  MaterialRepository materialRepository;
 
-    public MaterialService(MaterialRepository materialRepository) {
-        this.materialRepository = materialRepository;
+    public MaterialService() {
+        this.materialRepository = new MaterialRepository();
     }
 
     public void addMaterial(Material material) throws SQLException {
@@ -22,23 +22,8 @@ public class MaterialService implements MaterialInterface {
         materialRepository.addMaterial(material);
     }
 
-    public Optional<Material> findMaterialById(UUID materialId) throws SQLException {
-        return materialRepository.findMaterialById(materialId);
-    }
-
-    private void validateMaterial(Material material) {
-        if (material.getName() == null || material.getName().isEmpty()) {
-            throw new IllegalArgumentException("Material name cannot be null or empty.");
-        }
-        if (material.getUnitaryCost() <= 0) {
-            throw new IllegalArgumentException("Unitary cost must be greater than zero.");
-        }
-        if (material.getQuantity() <= 0) {
-            throw new IllegalArgumentException("Quantity must be greater than zero.");
-        }
-        if (material.getOutputFactor() <= 0) {
-            throw new IllegalArgumentException("Output factor must be greater than zero.");
-        }
+    public List<Material> findMaterialById(UUID projectid) throws SQLException {
+        return materialRepository.findMaterialById(projectid);
     }
 
     public double calculateTotalMaterials(List<Material> materialList) {
@@ -60,4 +45,18 @@ public class MaterialService implements MaterialInterface {
         return total;
     }
 
+    private void validateMaterial(Material material) {
+        if (material.getName() == null || material.getName().isEmpty()) {
+            throw new IllegalArgumentException("Material name cannot be null or empty.");
+        }
+        if (material.getUnitaryCost() <= 0) {
+            throw new IllegalArgumentException("Unitary cost must be greater than zero.");
+        }
+        if (material.getQuantity() <= 0) {
+            throw new IllegalArgumentException("Quantity must be greater than zero.");
+        }
+        if (material.getOutputFactor() <= 0) {
+            throw new IllegalArgumentException("Output factor must be greater than zero.");
+        }
+    }
 }

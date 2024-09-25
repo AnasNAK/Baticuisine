@@ -8,7 +8,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 public interface ProjectInterface {
-    void addProject(Project project) throws SQLException;
+    Project addProject(Project project) throws SQLException;
     Optional<Project> findProjectById(UUID projectId) throws SQLException;
     List<Project> getAllProjects() throws SQLException;
 //    Optional<Project> updateProject(UUID projectId, Project updatedProject) throws SQLException;

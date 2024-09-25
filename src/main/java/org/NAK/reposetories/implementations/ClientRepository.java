@@ -16,7 +16,7 @@ import java.util.UUID;
 
 public class ClientRepository implements ClientInterface  {
 
-    private Connection connection;
+    private final Connection connection;
 
     public ClientRepository(){
         this.connection = Database.getInstance().establishConnection();

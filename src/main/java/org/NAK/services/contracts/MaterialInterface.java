@@ -10,6 +10,7 @@ import java.util.UUID;
 public interface MaterialInterface {
 
     void addMaterial(Material material) throws SQLException;
-    Optional<Material> findMaterialById(UUID materialId) throws SQLException;
+    List <Material> findMaterialById(UUID projectid) throws SQLException;
     double calculateTotalMaterials(List<Material> material);
+
 }

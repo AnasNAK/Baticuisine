@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class MainMenu {
 
     public void displayMenu(){
+
         Scanner scanner = new Scanner(System.in);
         ProjectUi projectUi = new ProjectUi(scanner);
 
